@@ -1,11 +1,23 @@
+// import axios from "axios";
+
+// const api = axios.create({
+//   baseURL: "http://localhost:8080/v1/users",
+//   headers: {
+//     "Content-Type": "application/json",
+//   },
+// });
+
+
+// export default api;
+
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/v1/users",
+  baseURL: "https://poker-backend-ecu5.onrender.com/v1/users",
   headers: {
     "Content-Type": "application/json",
   },
 });
 
-
 export default api;
+
