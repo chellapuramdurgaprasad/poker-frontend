@@ -6,8 +6,6 @@
 //     "Content-Type": "application/json",
 //   },
 // });
-
-
 // export default api;
 
 import axios from "axios";
